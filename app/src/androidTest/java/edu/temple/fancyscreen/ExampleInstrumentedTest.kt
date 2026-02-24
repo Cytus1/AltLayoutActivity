@@ -20,5 +20,9 @@ class ExampleInstrumentedTest {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
         assertEquals("edu.temple.fancyscreen", appContext.packageName)
+
+
+
+
     }
 }
