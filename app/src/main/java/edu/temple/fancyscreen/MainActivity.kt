@@ -16,20 +16,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        findViewById<ImageView>(R.id.profile_photo).setImageResource(R.drawable.istockphoto)
-
-        findViewById<TextView>(R.id.name).setText("Michelle Townsend")
+        findViewById<TextView>(R.id.name).text = getString(R.string.name_value)
+        findViewById<TextView>(R.id.email).text = getString(R.string.email_value)
 
         with(findViewById<TextView>(R.id.email)) {
             text = "mt@ourcompany.com"
             setTextColor(Color.BLUE)
         }
 
-        findViewById<TextView>(R.id.extension).text = "2253"
-
-        findViewById<TextView>(R.id.department).text = "Design"
-
-        findViewById<TextView>(R.id.supervisor).text = "Gail Davers"
+        findViewById<TextView>(R.id.extension).text = getString(R.string.extension_value)
+        findViewById<TextView>(R.id.department).text = getString(R.string.department_value)
+        findViewById<TextView>(R.id.supervisor).text = getString(R.string.supervisor_value)
 
         with (findViewById<RecyclerView>(R.id.directReportsRecyclerView)) {
             adapter = RecyclerViewAdapter(

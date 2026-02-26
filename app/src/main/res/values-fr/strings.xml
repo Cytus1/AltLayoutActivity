@@ -1,24 +1,22 @@
 <resources>
     <string name="app_name">FancyScreen</string>
 
-    <string name="name">Name</string>
-    <string name="emailLabel">Email</string>
-    <string name="email">mt@ourcompany.com</string>
-    <string name="extensionLabel">Extension</string>
-    <string name="extension">2253</string>
-    <string name="departmentLabel">Department</string>
-    <string name="department">Design</string>
-    <string name="supervisorLabel">Supervisor</string>
-    <string name="supervisor">Gail Davers</string>
-    <string name="directReportsLabel">Direct Reports</string>
+    <string name="name">Nom</string>
+    <string name="emailLabel">Courriel</string>
+    <string name="email">Adresse Courriel</string>
+    <string name="extensionLabel">Poste</string>
+    <string name="extension">Poste</string>
+    <string name="departmentLabel">Département</string>
+    <string name="department">Nom du département</string>
+    <string name="supervisorLabel">Superviseur</string>
+    <string name="supervisor">Nom du superviseur</string>
+    <string name="directReportsLabel">Subordonnés</string>
 
     <string name="name_value">Michelle Townsend</string>
     <string name="email_value">mt@notreentreprise.com</string>
     <string name="extension_value">2253</string>
     <string name="department_value">Design</string>
     <string name="supervisor_value">Gail Davers</string>
-
-
 
     <string name="staff_1">Kate Sacloff</string>
     <string name="staff_2">Andrew Klein</string>

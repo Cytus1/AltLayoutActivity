@@ -24,6 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+            android:text="@string/name"
             tools:text="Name" />
 
         <TextView
@@ -31,13 +32,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="8dp"
-            android:text="Email"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            android:text="@string/emailLabel"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            tools:text="Email" />
 
         <TextView
             android:id="@+id/email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="@string/email"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             tools:text="Email Address" />
 
@@ -46,13 +49,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="8dp"
-            android:text="Extension"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            android:text="@string/extensionLabel"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            tools:text="Extension" />
 
         <TextView
             android:id="@+id/extension"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="@string/extension"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             tools:text="Extension" />
 
@@ -61,13 +66,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="8dp"
-            android:text="Department"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            android:text="@string/departmentLabel"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            tools:text="Department" />
 
         <TextView
             android:id="@+id/department"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="@string/department"
             android:textAppearance="@style/TextAppearance.AppCompat.Display2"
             tools:text="Department name" />
 
@@ -76,29 +83,31 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="8dp"
-            android:text="Supervisor"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            android:text="@string/supervisorLabel"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            tools:text="Supervisor" />
 
         <TextView
             android:id="@+id/supervisor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="@string/supervisor"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-            tools:text="Supervisor\'s Name" />
+            tools:text="Supervisor's Name" />
 
         <TextView
             android:id="@+id/directReportsLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="8dp"
-            android:text="Direct Reports"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            android:text="@string/directReportsLabel"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            tools:text="Direct Reports" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/directReportsRecyclerView"
             android:layout_width="300dp"
             android:layout_height="300dp" />
-
 
     </LinearLayout>
 
